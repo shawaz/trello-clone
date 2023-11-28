@@ -4,8 +4,8 @@ function CreateOrganizationPage() {
   return (
     <OrganizationList 
         hidePersonal 
-        afterSelectOrganizationUrl='/organization/:id'
-        afterCreateOrganizationUrl='/organization/:id'
+        afterSelectOrganizationUrl='/org/:id'
+        afterCreateOrganizationUrl='/org/:id'
     />
   )
 }
